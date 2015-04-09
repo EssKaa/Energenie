@@ -34,7 +34,7 @@ class EGPM(eg.PluginBase):
 
 
 
-    def __start__(self, ip_address="", password="", event=""):
+    def __start__(self, ip_address="", password="", event=True):
         self.egpmIp = ip_address
         self.egpmPw = password
         self.egpmUpdate = True
