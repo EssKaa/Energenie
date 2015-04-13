@@ -41,7 +41,7 @@ class EGPM(eg.PluginBase):
         self.egpmEvent = event
         eg.globals.egpmCurrentState = [0,0,0,0]
 
-    def Configure(self, ip_address="", password="", event=""):
+    def Configure(self, ip_address="", password="", event=True):
 
         x_start = 10
         x_padding = 70
